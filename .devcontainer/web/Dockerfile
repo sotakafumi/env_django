@@ -1,4 +1,4 @@
-FROM python:3.10.7-slim-bullseye
+FROM python:3.10.9-slim-bullseye
 
 # パッケージ の インストール
 RUN apt-get update && apt-get install -y tzdata && rm -rf /var/lib/apt/lists/*
